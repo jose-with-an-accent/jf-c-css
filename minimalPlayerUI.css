@@ -1,0 +1,45 @@
+
+div.videoOsdBottom {
+    background: linear-gradient(to top, rgba(0, 0, 0, .8) 40% , transparent) !important; 
+}
+div.skinHeader.osdHeader {
+    background: transparent;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .6) 40% , transparent) !important;
+
+}
+ h1.sliderBubbleText {
+    font-size: 14px;
+}
+.sliderBubble {
+    transform: translate3d(-50%,-100%,0);
+    background: black;
+} 
+h3.osdTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+h3.pageTitle, h3.osdTitle {
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+}
+h3.pageTitle {
+    font-size: 1.3em;
+}
+.videoOsdBottom .sliderContainer {
+    margin: .2em .2em .25em;
+}
+
+.mediaInfoItem {
+    display: none;
+}
+.osdTextContainer {
+    margin-bottom: 0;
+}
+
+/* even more simplified - removes poster, ends at */
+.endsAtText {
+    display: none;
+}
+.osdPoster {
+    display: none;
+}
